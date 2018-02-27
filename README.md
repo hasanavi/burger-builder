@@ -62,9 +62,9 @@ Burger Builder is a stateful component
 Rest of the component can be dumb / state less component
 
 
-## Tracking change
+## Tracking important structural change
 
-27/02/2018 - Enable CSS Modules by ejecting `yarn eject`
+27/02/2018 - Enable CSS Modules by `yarn eject`
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
