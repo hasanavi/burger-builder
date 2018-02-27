@@ -27,21 +27,21 @@ App
     |__ Backdrop
     |
     |__ {props.children}
-        |
-        |__ Different Pages
-              Burger Builder
-              |
-              |__ Build Controls
-              |     Ingredient add / remove control
-              |     Ingredient add / remove control
-              |     *
-              |     OrderButton
-              |__ Burger
-              |     Ingredient
-              |     Ingredient
-              |     *
-              |__ Modal
-                    {props.children}
+      |
+      |__ Different Pages
+            Buger Builder
+            |
+            |__ Build Controls
+            |     Ingredient add / remove control
+            |     Ingredient add / remove control
+            |     *
+            |     OrderButton
+            |__ Burger
+            |     Ingredient
+            |     Ingredient
+            |     *
+            |__ Modal
+                  {props.children}
     
 
 ```
