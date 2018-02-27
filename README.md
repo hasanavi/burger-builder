@@ -2,7 +2,7 @@
 
 **This is just for myself trying to build a demo project following React best practices with different tools**
 
-## Planning a React App
+## Planning
 
 1. Component tree / Component Structure
 2. Application State (Data)
