@@ -1,3 +1,52 @@
+# Burger Builder
+
+**This is just for myself trying to build a demo project following React best practices with different tools**
+
+## Planning a React App
+
+1. Component tree / Component Structure
+2. Application State (Data)
+3. Component vs Containers
+
+### 1. Component tree / structure
+
+```
+App
+|
+|___ Layout
+    |
+    |__ Toolbar
+    |     Drawer Toggle
+    |     Logo
+    |     Nav item
+    |__ SideDrawer
+    |     Drawer Toggle
+    |     Logo
+    |     Nav item
+    |
+    |__ Backdrop
+    |
+    |__ {props.children}
+    |
+    |__ Different Pages
+          Buger Builder
+          |
+          |__ Build Controls
+          |     Ingredient add / remove control
+          |     Ingredient add / remove control
+          |     *
+          |     OrderButton
+          |__ Burger
+          |     Ingredient
+          |     Ingredient
+          |     *
+          |__ Modal
+                {props.children}
+    
+
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

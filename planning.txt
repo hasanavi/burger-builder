@@ -1,5 +1,0 @@
-Planning a React App
-
-1. Component tree / Component Structure
-2. Application State (Data)
-3. Component vs Containers
