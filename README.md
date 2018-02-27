@@ -43,8 +43,25 @@ App
             |__ Modal
                   {props.children}
     
+```
+
+### 2. Application State (Data)
+
+Basic State for Burger builder page
 
 ```
+Ingredients
+|
+|__ 1: meat, 2: cheese etc
+
+Purchased: true / false
+TotalPrice: 12.45
+```
+### 3. Dumb component vs Container
+Burger Builder is a stateful component
+Rest of the component can be dumb / state less component
+
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
