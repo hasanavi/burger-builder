@@ -6,7 +6,7 @@
 
 1. Component tree / Component Structure
 2. Application State (Data)
-3. Component vs Containers
+3. Dumb / stateless component vs stateful Container
 
 ### 1. Component tree / structure
 
@@ -57,7 +57,7 @@ Ingredients
 Purchased: true / false
 TotalPrice: 12.45
 ```
-### 3. Dumb component vs Container
+### 3. Dumb / stateless component vs stateful Container
 Burger Builder is a stateful component
 Rest of the component can be dumb / state less component
 
