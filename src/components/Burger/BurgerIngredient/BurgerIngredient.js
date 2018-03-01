@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import styles from './BurgerIngredient.css';
 
-class BurgetIngredient extends Component {
+class BurgerIngredient extends Component {
     render () {
-        let ingredients = null;
+        let ingredient = null;
 
         switch( this.props.type) {
             case ('bread-bottom') : 
@@ -31,15 +31,15 @@ class BurgetIngredient extends Component {
                 ingredient = <div className={styles.Salad}></div>;
                 break;
             default:
-                ingredients = null;
+                ingredient = null;
         }
 
-        return ingredients;
+        return ingredient;
     }
 }
 
-BurgetIngredient.prototype = {
+BurgerIngredient.PropTypes = {
     type: PropTypes.string.isRequired
 };
 
-export default BurgetIngredient;
+export default BurgerIngredient;
