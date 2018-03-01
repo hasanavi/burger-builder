@@ -65,6 +65,7 @@ Rest of the component can be dumb / state less component
 ## Tracking important structural change
 
 27/02/2018 - Enable CSS Modules by `yarn eject`
+
 28/02/2018 - Add prop-types modules for prop validation
 
 
