@@ -2,6 +2,11 @@
 
 **This is just for myself trying to build a demo project following React best practices with different tools**
 
+## Run the project
+
+1. `yarn install`
+2. `yarn start`
+
 ## Planning
 
 1. Component tree / Component Structure
