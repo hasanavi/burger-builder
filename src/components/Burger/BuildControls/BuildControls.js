@@ -1,5 +1,5 @@
 import React from 'react';
-import Styles from './BuildControls.css';
+import styles from './BuildControls.css';
 import BuildControl from './BuildControl/BuildControl';
 
 
@@ -11,7 +11,7 @@ const controls = [
 ]
 
 const buildControls = (props) => (
-    <div className={Styles.BuildControls}>
+    <div className={styles.BuildControls}>
         <p>current price: <strong>{props.totalPrice.toFixed(2)}</strong></p>
 
         {controls.map( ctrl => (
@@ -22,6 +22,8 @@ const buildControls = (props) => (
                     removed={() => props.ingredientRemvoed(ctrl.type)}
                     disabled={props.disabled[ctrl.type]} />
         ))}
+
+        <button className={styles.OrderButton} disabled={!props.purchasable}>Order Now</button>
     </div>
 )
 
