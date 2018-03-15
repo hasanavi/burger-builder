@@ -1,5 +1,5 @@
 import React from 'react';
-import EmptyWrap from '../../../hoc/EmptyWrap';
+import EmptyWrap from '../../../hoc/EmptyWrap/EmptyWrap';
 import Button from '../../UI/Button/Button';
 
 const orderSummary = (props) => {

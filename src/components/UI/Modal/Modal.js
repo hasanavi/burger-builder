@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import styles from './Modal.css';
-import EmptyWrap from '../../../hoc/EmptyWrap';
+import EmptyWrap from '../../../hoc/EmptyWrap/EmptyWrap';
 import Backdrop from '../Backdrop/Backdrop';
 
 class Modal extends Component {

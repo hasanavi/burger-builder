@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import EmptyWrap from '../../hoc/EmptyWrap';
-import Toolbar from '../Navigation/Toolbar/Toolbar';
+import EmptyWrap from '../EmptyWrap/EmptyWrap';
+import Toolbar from '../../components/Navigation/Toolbar/Toolbar';
 import styles from './Layout.css';
-import SideDrawer from '../Navigation/SideDrawer/SideDrawer';
+import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
 
 class Layout extends Component {
     constructor(props) {

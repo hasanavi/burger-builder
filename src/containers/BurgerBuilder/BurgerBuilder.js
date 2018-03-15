@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import EmptyWrap from '../../hoc/EmptyWrap';
+import EmptyWrap from '../../hoc/EmptyWrap/EmptyWrap';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Modal from '../../components/UI/Modal/Modal';
