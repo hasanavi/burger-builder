@@ -73,5 +73,7 @@ Rest of the component can be dumb / state less component
 
 28/02/2018 - Add prop-types modules for prop validation
 
+15/03/2018 - Improve performance by preventing unnecessary rendering using `shouldComponentUpdate`
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
