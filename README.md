@@ -4,7 +4,7 @@
 
 ## Run the project
 
-1. `yarn install`
+1. `yarn`
 2. `yarn start`
 
 ## Tracking important structural change
@@ -15,7 +15,7 @@
 
 15/03/2018 - Improve performance by preventing unnecessary rendering using `shouldComponentUpdate`
 
-04/04/2018 - Integrate axios with Google Firebase
+04/04/2018 - Integrate [https://github.com/axios/axios](axios) with [https://firebase.google.com/](Google Firebase)
 
 
 ## Planning
