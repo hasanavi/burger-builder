@@ -15,7 +15,7 @@
 
 15/03/2018 - Improve performance by preventing unnecessary rendering using `shouldComponentUpdate`
 
-04/04/2018 - Integrate [https://github.com/axios/axios](axios) with [https://firebase.google.com/](Google Firebase)
+04/04/2018 - Integrate [axios](https://github.com/axios/axios) with [Google Firebase](https://firebase.google.com/)
 
 
 ## Planning
