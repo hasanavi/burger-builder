@@ -7,6 +7,17 @@
 1. `yarn install`
 2. `yarn start`
 
+## Tracking important structural change
+
+27/02/2018 - Enable CSS Modules by `yarn eject`
+
+28/02/2018 - Add prop-types modules for prop validation
+
+15/03/2018 - Improve performance by preventing unnecessary rendering using `shouldComponentUpdate`
+
+04/04/2018 - Integrate axios with Google Firebase
+
+
 ## Planning
 
 1. Component tree / Component Structure
@@ -65,15 +76,5 @@ TotalPrice: 12.45
 ### 3. Dumb / stateless component vs stateful Container
 Burger Builder is a stateful component
 Rest of the component can be dumb / state less component
-
-
-## Tracking important structural change
-
-27/02/2018 - Enable CSS Modules by `yarn eject`
-
-28/02/2018 - Add prop-types modules for prop validation
-
-15/03/2018 - Improve performance by preventing unnecessary rendering using `shouldComponentUpdate`
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).

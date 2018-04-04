@@ -1,0 +1,46 @@
+.Spinner {
+    color: #000;
+    margin: 120px auto 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.Spinner div {
+    margin: 5px 0;
+}
+
+.Spinner span {
+    width: 1px;
+    height: 12px;
+    background: #000;
+    margin: 0 1px;
+    display: inline-block;
+    animation: spinner-anim 1000ms infinite ease-in-out;
+  }
+
+.Spinner span:first-child { animation-delay: 800ms; }
+.Spinner span:nth-child(2) { animation-delay: 600ms; }
+.Spinner span:nth-child(3) { animation-delay: 400ms; }
+.Spinner span:nth-child(4) { animation-delay: 200ms; }
+.Spinner span:nth-child(5) { animation-delay: 200ms; }
+.Spinner span:nth-child(6) { animation-delay: 400ms; }
+.Spinner span:nth-child(7) { animation-delay: 600ms; }
+.Spinner span:last-child { animation-delay: 800ms; }
+
+
+@keyframes spinner-anim { 
+  0% { 
+    opacity: 1;
+    height: 15px;
+  }
+  50% { 
+    opacity: 0;
+    height: 12px;
+  }
+  100% { 
+    opacity: 1;
+    height: 15px;
+  }  
+}
