@@ -6,10 +6,18 @@
     font-size: 10px;
     letter-spacing: 2px;
     height: 40px;
+    overflow: hidden;
 }
 
-.Spinner div {
+.Spinner .Loading {
     margin: 5px 0;
+}
+
+.Spinner .SpanContainer {
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .Spinner span {
