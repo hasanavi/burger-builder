@@ -17,6 +17,7 @@
 
 04/04/2018 - Integrate [axios](https://github.com/axios/axios) with [Google Firebase](https://firebase.google.com/)
 
+06/04/2018 - Global error handler using higher order component
 
 ## Planning
 

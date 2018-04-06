@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Spinner.css';
 
 const spinner = (props) => {
-    let spanArr = Array(9).fill(<span key=""></span>);
+    let spanArr = [...Array(9)].map( (e,i) => <span key={i}></span>);
     
     return (
         <div className={styles.Spinner}>
