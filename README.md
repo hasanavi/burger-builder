@@ -17,7 +17,9 @@
 
 04/04/2018 - Integrate [axios](https://github.com/axios/axios) with [Google Firebase](https://firebase.google.com/)
 
-06/04/2018 - Global error handler using higher order component
+06/04/2018 - Global error handler using HOC (higher order component)
+
+11/04/2018 - Prevent memory leak by unmounting unnecessary instances in componentWillUnmount life cycle
 
 ## Planning
 
