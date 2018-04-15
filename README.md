@@ -21,6 +21,8 @@
 
 11/04/2018 - Prevent memory leak by unmounting unnecessary instances in componentWillUnmount life cycle
 
+15/04/2018 - Integrate [React router dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) for multiple page routing
+
 ## Planning
 
 1. Component tree / Component Structure
