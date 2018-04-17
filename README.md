@@ -23,6 +23,8 @@
 
 15/04/2018 - Integrate [React router dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) for multiple page routing
 
+17/04/2018 - Add Contact Form and save submitted data to Firebase db
+
 ## Planning
 
 1. Component tree / Component Structure
