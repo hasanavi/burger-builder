@@ -10,8 +10,8 @@
     margin-bottom: 8px;
 }
 
-.Input input,
-.Input select {
+input,
+select {
     outline: none;
     border: 1px solid #ccc;
     background-color: white;
@@ -22,8 +22,13 @@
     box-sizing: border-box;
 }
 
-.Input input:focus,
-.Input select:focus {
+input:focus,
+select:focus {
     outline: none;
     background-color: #ccc;   
+}
+
+.Invalid {
+    border: 1px solid red;
+    background-color: #FDA49A;
 }
