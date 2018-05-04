@@ -25,6 +25,8 @@
 
 21/04/2018 - Add Contact Form, validate manually and save submitted data to Firebase db
 
+04/05/2018 - Add Redux and React-Redux store and reducer
+
 ## Planning
 
 1. Component tree / Component Structure
