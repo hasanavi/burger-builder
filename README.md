@@ -27,6 +27,9 @@
 
 04/05/2018 - Add Redux and React-Redux store and reducer
 
+07/05/2018 - Add Enzyme and adapter with Jest. Unit test integration
+
+
 ## Planning
 
 1. Component tree / Component Structure
