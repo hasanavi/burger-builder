@@ -8,8 +8,12 @@ import NavigationItems from './NavigationItems';
 configure({adapter: new Adapter()});
 
 describe('<NavigationItems />', () => {
+    let wrapper;
+    beforeEach( () => {
+        wrapper = shallow(<NavigationItems />)
+    })
+
     it('should render 2 navigation items', () => {
-        const wrapper = shallow(<NavigationItems />);
         expect(wrapper.find('li')).toHaveLength(2);
     });
 });

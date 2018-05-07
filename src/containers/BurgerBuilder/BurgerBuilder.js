@@ -12,7 +12,7 @@ import * as actionType from '../../store/actions';
 
 import axios from '../../axios-order';
 
-class BurgerBuilder extends Component {
+export class BurgerBuilder extends Component {
 
     constructor(props) {
         super(props);
