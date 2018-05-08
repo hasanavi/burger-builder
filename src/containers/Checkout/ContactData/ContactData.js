@@ -212,7 +212,7 @@ class ContactData extends Component {
 const mapStateToProps = state => {
     return {
         ingredients: state.ingredients,
-        totalPrice: state.tatalPrice
+        totalPrice: state.totalPrice
     }
 }
 
