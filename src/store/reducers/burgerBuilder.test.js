@@ -1,5 +1,5 @@
 import reducer from './reducer';
-import * as actionTypes from './actions';
+import * as actionTypes from '../actions/actions';
 
 
 describe('reducer', () => {
