@@ -29,6 +29,10 @@
 
 07/05/2018 - Add Enzyme and adapter with Jest. Unit test integration
 
+12/05/2018 - Add [redux thunk](https://github.com/reduxjs/redux-thunk) middleware for REST API call from redux
+
+13/05/2018 - Improve reducers by separting action, action types, multiple reducers for specific cases, satisfy test cases
+
 
 ## Planning
 
