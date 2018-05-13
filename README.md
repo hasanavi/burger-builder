@@ -25,9 +25,9 @@
 
 21/04/2018 - Add Contact Form, validate manually and save submitted data to Firebase db
 
-04/05/2018 - Add Redux and React-Redux store and reducer
+04/05/2018 - Add [Redux](https://github.com/reduxjs/redux) and [React-Redux](https://github.com/reduxjs/react-redux) store and reducer
 
-07/05/2018 - Add Enzyme and adapter with Jest. Unit test integration
+07/05/2018 - Add [Enzyme](https://github.com/airbnb/enzyme) and adapter with Jest. Unit test integration
 
 12/05/2018 - Add [redux thunk](https://github.com/reduxjs/redux-thunk) middleware for REST API call from redux
 
