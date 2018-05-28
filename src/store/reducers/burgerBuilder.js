@@ -1,5 +1,7 @@
 import * as actionTypes from '../actions/actionTypes';
 
+import {updateObject} from '../utility';
+
 const initialState = {
     ingredients: null,
     totalPrice: 2,
@@ -14,44 +16,43 @@ const INGREDIENT_PRICES = {
 };
 
 const reducer = (state = initialState, action) => {
+    let updatedIngredient;
+    let updatedIngredients;
+    let updatedState;
+
     switch(action.type) {
         case actionTypes.ADD_INGREDIENTS:
-            return {
-                ...state,
-                ingredients: {
-                    ...state.ingredients,
-                    // the following is ES6 way dynamically override a key of an object
-                    [action.ingredientName] : state.ingredients[action.ingredientName] + 1
-                },
+            updatedIngredient = { [action.ingredientName] : state.ingredients[action.ingredientName] + 1 };
+            updatedIngredients = updateObject(state.ingredients, updatedIngredient)
+            updatedState = {
+                ingredients : updatedIngredients,
                 totalPrice: state.totalPrice + INGREDIENT_PRICES[action.ingredientName]
-            };
+            }
+            return updateObject(state, updatedState);
         case actionTypes.REMOVE_INGREDIENTS:
-            return {
-                ...state,
-                ingredients: {
-                    ...state.ingredients,
-                    // the following is ES6 way dynamically override a key of an object
-                    [action.ingredientName] : state.ingredients[action.ingredientName] - 1
-                },
+            updatedIngredient = { [action.ingredientName] : state.ingredients[action.ingredientName] - 1 };
+            updatedIngredients = updateObject(state.ingredients, updatedIngredient)
+            updatedState = {
+                ingredients : updatedIngredients,
                 totalPrice: state.totalPrice - INGREDIENT_PRICES[action.ingredientName]
-            };
+            }
+            return updateObject(state, updatedState);
         case actionTypes.SET_INGREDIENTS:
-            return {
-                ...state,
+            updatedState = {
                 ingredients: {
                     salad: action.ingredients.salad,
                     bacon: action.ingredients.bacon,
                     cheese: action.ingredients.cheese,
                     meat: action.ingredients.meat,
                 },
-                error: false
-            };
+                error: false,
+                totalPrice: 2
+            }
+            return updateObject(state, updatedState);
         case actionTypes.FETCH_INGREDIENTS_FAILED:
-            return {
-                ...state,
+            return updateObject(state, {
                 error: true
-                
-            };
+            });            
         default:
             return state;
     }

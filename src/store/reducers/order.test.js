@@ -1,13 +1,12 @@
-import reducer from './burgerBuilder';
+import reducer from './order';
 import * as actions from '../actions/index';
-
 
 describe('reducer', () => {
     it('should return the initial state', () => {
         const expecetedState = {
-            ingredients: null,
-            totalPrice: 2,
-            error: false
+            orders: [],
+            loading: false,
+            purchased: false
         };
         const mockTest = undefined;
         const mockAction = {};
@@ -17,9 +16,9 @@ describe('reducer', () => {
 
     it('should return initial state for unknown action', () => {
         const expecetedState = {
-            ingredients: null,
-            totalPrice: 2,
-            error: false
+            orders: [],
+            loading: false,
+            purchased: false
         };
 
         const mockState = undefined;
@@ -29,24 +28,17 @@ describe('reducer', () => {
         expect(result).toEqual(expecetedState);
     });
 
-    it('should add ingredients and price on ADD_INGREDIENTS', () => {
+    it('should set purchased flag to false on PURCHASE_INIT', () => {
         const mockState = {
-            ingredients: {
-                bacon: 0,
-                cheese: 0,
-                salad: 0,
-                meat: 0
-            },
-            totalPrice: 2,
-            error: false
+            orders: [],
+            loading: false,
+            purchased: true
         };
         
-        const mockAction = actions.addIngredient('salad');
+        const mockAction = actions.purchaseInit();
         const result = reducer(mockState, mockAction);
-        
-        expect(result.ingredients.salad).toEqual(1);
-        expect(result.totalPrice).toEqual(2.5);
-        expect(result.error).toEqual(false);
+ 
+        expect(result.purchased).toEqual(false);
         
     });
-});
+})
